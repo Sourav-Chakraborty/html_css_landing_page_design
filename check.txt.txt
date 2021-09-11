@@ -18,3 +18,8 @@ pushing to git hub in existing repo:
 	1>git add . --make sure git is already initialize there
 	2>git commit -m "New_comment"
 	3>git push origin master
+
+pulling from git hub:
+	open git bash go to the folder where you want to perform pull request
+	1>git init --initialize git
+	2>git pull <ssh address of the repo available at code section>
