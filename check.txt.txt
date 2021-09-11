@@ -1,0 +1,20 @@
+We are learining git hub:
+to push code to git hub for the 1st time:
+	1>create repo in git hub
+	2>open git bash at the targeted folder
+	2.5>touch .gitignore    --to mention files that need to be ignored at the time of pushing 
+	3>git init
+		--it will create a .git file in the folder that is hidden ,we can manually delete this file to remove relation 
+		  with github repo.
+	4>git add .
+	5>git commit -m "Initial commit"
+	6>git status      ---just to check status
+	7>If don't configure ssh key,then generate one and configure it in git hub
+	8>git remote add origin <ssh url.git>
+	9>git push origin master
+
+pushing to git hub in existing repo:
+	0>git status --check the status
+	1>git add . --make sure git is already initialize there
+	2>git commit -m "New_comment"
+	3>git push origin master
